@@ -8,7 +8,7 @@
 
     <EditText
         android:id="@+id/editText_i1"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Input Value"
@@ -18,7 +18,7 @@
 
     <EditText
         android:id="@+id/editText2_i2"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Input Value"
@@ -55,7 +55,7 @@
         tools:layout_editor_absoluteX="293dp"
         tools:layout_editor_absoluteY="177dp" />
     <Button
-        android:id="@+id/button_sum4"
+        android:id="@+id/button_div"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
         tools:layout_editor_absoluteY="238dp" />
 
     <Button
-        android:id="@+id/button_sum2"
+        android:id="@+id/button_multi"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
